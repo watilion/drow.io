@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-03-26T04:13:46.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.8.23" etag="6Rm-WL-9eaiTFpkT1c01" type="github"><diagram name="第 1 页" id="KEm2VOxG4iv8sWNIr2GJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-26T04:14:13.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Jp3VoHDOdZebTIvg0Zj6" version="20.8.23" type="github">
+  <diagram name="第 1 页" id="KEm2VOxG4iv8sWNIr2GJ">
+    <mxGraphModel dx="1120" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EpmfYzxE3zBYT083WcZS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EpmfYzxE3zBYT083WcZS-2" target="EpmfYzxE3zBYT083WcZS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpmfYzxE3zBYT083WcZS-2" value="https://aqyj.cncico.com/#/login&lt;br&gt;103.239.246.61" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpmfYzxE3zBYT083WcZS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EpmfYzxE3zBYT083WcZS-4" target="EpmfYzxE3zBYT083WcZS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpmfYzxE3zBYT083WcZS-4" value="IP未知&lt;br&gt;waf集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpmfYzxE3zBYT083WcZS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EpmfYzxE3zBYT083WcZS-6" target="EpmfYzxE3zBYT083WcZS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpmfYzxE3zBYT083WcZS-6" value="https://IP未知:80&lt;br&gt;数字中心服务器&lt;br&gt;nginx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpmfYzxE3zBYT083WcZS-7" value="http://10.100.211.129:9880/#/login&lt;br&gt;安全应急管理系统服务器&lt;br&gt;nginx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="560" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpmfYzxE3zBYT083WcZS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EpmfYzxE3zBYT083WcZS-9" target="EpmfYzxE3zBYT083WcZS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpmfYzxE3zBYT083WcZS-9" value="IP未知&lt;br&gt;DDos防护" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
